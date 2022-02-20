@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(29, 123, 201);
+}
+
+/*h1{
+   background-color: red;
+   color: blue;
+}*/
+
+.header{
+    margin: 0px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.body{background-color: yellow;
+    margin: 20px 150px;
+    display:flex;
+    justify-content: space-evenly;  
+    border: 1px solid black;
+}
+.footer{
+    background-color: yellow;
+    margin: 20px 100px;
+    display:flex;
+    justify-content: space-evenly; 
+    border: 1px solid black;
+}
+ 
+.div{
+    padding: 10px 30px;
+    border: 1px solid black;
+}
+
+.heading{
+    background-color: yellow;
+    padding: 1px 50px;
+    display: inline-block;  
+    border: 1px solid black; 
+}
+
+.heading3{
+    background-color: rgb(238,238,238);
+    display: inline-block;
+    padding: 60px 35px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+.div_1{
+    background-color: rgb(204,205,254);
+    margin: 20px 40px;
+   text-align: center;
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+
+.div_2{
+    background-color: rgb(155,255,154); 
+}
+
+.div_3{
+    background-color: rgb(240,239,255);   
+}
+
+.div_4{
+    background-color: rgb(254,238,153);
+}
+
+.div_5{
+    background-color: pink;
+    margin-top: 10px;
+}
+
+.div_6{
+    background-color: skyblue;
+    margin-top: 10px;
+}
+
+.div_7{
+background-color: yellow;
+padding: 0px;
+}
+
+.div_8{
+    background-color:rgb(178, 245, 176) ;
+    margin-top: 10px;
+    padding: 0px;
+}
