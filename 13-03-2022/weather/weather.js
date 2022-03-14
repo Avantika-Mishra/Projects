@@ -22,7 +22,7 @@ searchInputBox.addEventListener('keypress', (event) => {
 
 // Get Weather Report
 function getWeatherReport(city) {
-    fetch(`${weatherApi.baseUrl}?q=${city}&appid=${weatherApi.key}`)
+    fetch(`${weatherApi.baseUrl}?q=${city}&appid=${weatherApi.key}&units=metric`)
     .then(weather => {
         return weather.json();
     }).then(showWeatherReport);
@@ -50,27 +50,27 @@ function showWeatherReport(weather){
 
     
     if(weatherType.textContent == 'Clear') {
-        document.body.style.backgroundImage = "url('clear.jpg')";
+        document.body.style.backgroundImage = "url('images/clear.jpg')";
         
     } else if(weatherType.textContent == 'Clouds') {
 
-        document.body.style.backgroundImage = "url('cloudy.jpg')";
+        document.body.style.backgroundImage = "url('images/cloud.jpg')";
         
     } else if(weatherType.textContent == 'Haze') {
 
-        document.body.style.backgroundImage = "url('cloud.jpg')";
+        document.body.style.backgroundImage = "url('images/cloud.jpg')";
         
     }     else if(weatherType.textContent == 'Rain') {
         
-        document.body.style.backgroundImage = "url('rainy.jpg')";
+        document.body.style.backgroundImage = "url('images/rain.jpg')";
         
     } else if(weatherType.textContent == 'Snow') {
         
-        document.body.style.backgroundImage = "url('snow.jpg')";
+        document.body.style.backgroundImage = "url('images/snow.jpg')";
     
     } else if(weatherType.textContent == 'Thunderstorm') {
     
-        document.body.style.backgroundImage = "url('thunderstorm.jpg')";
+        document.body.style.backgroundImage = "url('images/thunderstorm.jpg')";
         
     } 
 }
