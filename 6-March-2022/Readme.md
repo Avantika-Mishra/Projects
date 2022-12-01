@@ -1,3 +1,3 @@
 Hosted Links:-
 
-06-03-2022 (  https://avantika-mishra.github.io/GeeksterAssignment/6-March-2022/index.html)
+06-03-2022 (  https://avantika-mishra.github.io/Projects/6-March-2022/index.html)
